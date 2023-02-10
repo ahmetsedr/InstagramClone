@@ -1,0 +1,57 @@
+/*Ahmetsemihdur*/
+#icoNav li a img {
+    border-radius: 100%;
+    width: 1.3rem;
+}
+
+/*Ahmetsemihdur*/
+.avatar-story {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-img {
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 575px) {
+    .avatar-img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #icoNav {
+        justify-content: center !important;
+
+    }
+
+    #icoNav .nav-item a i {
+        margin: 0.8rem;
+    }
+
+    #icoNav .nav-item a img {
+        margin-top: 0.6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #icoNav {
+        position: relative;
+        left: 40vw;
+
+    }
+
+    #icoNav .nav-item a i {
+        margin: 0.3rem;
+    }
+
+    #icoNav .nav-item {
+        display: flex;
+        justify-content: center;
+    }
+
+}
